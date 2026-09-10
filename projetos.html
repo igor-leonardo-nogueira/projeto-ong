@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projetos - Projeto ONG</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Projetos da ONG</h1>
+        <p>Conheça nossas principais ações sociais</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="cadastro.html">Cadastro</a>
+    </nav>
+
+    <main class="grid-12">
+
+        <section class="col-6">
+            <h2>Voluntariado</h2>
+            <p>
+                Nosso projeto de voluntariado reúne pessoas interessadas
+                em ajudar a comunidade por meio de ações sociais.
+            </p>
+            <ul>
+                <li>Arrecadação de alimentos</li>
+                <li>Apoio às famílias</li>
+                <li>Atividades comunitárias</li>
+            </ul>
+        </section>
+
+       <section class="col-6">
+            <h2>Doações</h2>
+            <p>
+                As doações ajudam a manter nossos projetos e permitem
+                ampliar o atendimento às pessoas que precisam de apoio.
+            </p>
+            <p><strong>Toda contribuição faz a diferença.</strong></p>
+        </section>
+<section class="col-12">
+
+    <h2>Status dos Projetos</h2>
+
+    <div class="badges">
+        <span class="badge badge-verde">Voluntariado</span>
+        <span class="badge badge-azul">Doações</span>
+        <span class="badge badge-amarelo">Parceiro</span>
+        <span class="badge badge-vermelho">Urgente</span>
+        <span class="badge badge-cinza">Ativo</span>
+    </div>
+
+    <div class="alerta alerta-sucesso">
+        Cadastro realizado com sucesso!
+    </div>
+
+    <div class="alerta alerta-erro">
+        Erro ao enviar o formulário. Verifique os dados.
+    </div>
+
+    <div class="alerta alerta-aviso">
+        Atenção: preencha todos os campos obrigatórios.
+    </div>
+
+</section>
+<section class="col-12">
+    <h2>Confirmação</h2>
+
+    <button type="button" onclick="abrirModal()">
+        Abrir confirmação
+    </button>
+
+    <div id="modal" class="modal">
+        <div class="modal-conteudo">
+
+            <button class="modal-fechar" type="button" onclick="fecharModal()">×</button>
+
+            <div class="modal-icone">✓</div>
+
+            <h2>Obrigado pelo seu apoio!</h2>
+
+            <p>
+                Sua mensagem foi enviada com sucesso.
+                Em breve entraremos em contato.
+            </p>
+
+            <button type="button" onclick="fecharModal()">Entendi</button>
+
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>Projeto acadêmico - Desenvolvimento Front-End</p>
+    </footer>
+   <script src="../js/app.js"></script>
+    </body>
+</html>
