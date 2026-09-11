@@ -13,6 +13,7 @@ A aplicação foi desenvolvida buscando uma navegação simples, responsiva e ac
 - JavaScript
 - Git
 - GitHub
+- Vite
 
 ## Estrutura do Projeto
 
@@ -59,7 +60,9 @@ Após clonar o repositório, basta acessar a pasta `html` e abrir o arquivo `ind
 
 ## Deploy
 
-A aplicação será publicada utilizando GitHub Pages, permitindo acesso através de uma URL pública com HTTPS.
+A aplicação está publicada no GitHub Pages e pode ser acessada através do link:
+
+https://igor-leonardo-nogueira.github.io/projeto-ong/
 
 ## Versão
 
